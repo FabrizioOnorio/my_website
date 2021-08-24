@@ -1,0 +1,13 @@
+body {
+  font-family: 'Major Mono Display', monospace;
+  background: #FCEEF2;
+  color: #004044;
+}
+
+.title {
+  display: flex;
+}
+
+h2 {
+  text-align: center;
+}

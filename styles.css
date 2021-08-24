@@ -4,10 +4,34 @@ body {
   color: #004044;
 }
 
+h1 {
+  text-align: left;
+  margin-left: 10px;
+}
+
 .title {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
 }
 
 h2 {
   text-align: center;
+  margin-top: 16px;
+}
+
+p {
+  font-family: 'Besley', serif;
+}
+
+img {
+  width: 40%;
+  opacity: 0.7;
+}
+
+.profile{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
 }

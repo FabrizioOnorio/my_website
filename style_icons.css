@@ -1,0 +1,15 @@
+ul {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  list-style-type: none;
+  background-color: rgba(255, 255, 255, 0.858);
+  border-radius: 7px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.icon {
+  width: 90px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

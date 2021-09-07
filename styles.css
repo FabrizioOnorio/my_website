@@ -1,3 +1,5 @@
+@import "style_icons.css";
+
 body {
   font-family: 'Major Mono Display', monospace;
   background: #FCEEF2;
@@ -14,20 +16,24 @@ h1 {
   justify-content: center;
   align-items: center;
   margin-top: 16px;
+  font-size: 2em;
 }
 
 h2 {
   text-align: center;
   margin-top: 16px;
+  font-size: 2em;
 }
 
 p {
   font-family: 'Besley', serif;
+  font-size: 1.5em;
 }
 
-img {
-  width: 40%;
+.profile_image {
+  width: 90%;
   opacity: 0.7;
+  margin-top: 35px;
 }
 
 .profile{

@@ -1,6 +1,6 @@
 ul {
-  padding-top: 16px;
-  padding-bottom: 16px;
+
+  padding: 16px;
   list-style-type: none;
   background-color: rgba(255, 255, 255, 0.858);
   border-radius: 7px;
@@ -9,7 +9,20 @@ ul {
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .icon {
-  width: 90px;
+  width: 70px;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+
+@media(max-width: 728px) {
+  ul {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media(max-width: 728px) {
+  ul {
+    grid-template-columns: 1fr fr;
+  }
 }

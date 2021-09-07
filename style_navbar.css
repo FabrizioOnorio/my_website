@@ -1,0 +1,13 @@
+.topnav {
+  background-color: rgb(255, 255, 255);
+  padding: 12px;
+  border-radius: 7px;
+  margin-top: 16px;
+  position: fixed;
+  top: 0;
+  width:100%;
+}
+
+#skills {
+  margin-top: 30px;
+}

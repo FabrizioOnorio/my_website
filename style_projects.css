@@ -2,6 +2,13 @@
   background-color: rgba(255, 255, 255, 0.858);
   border-radius: 7px;
   padding: 24px;
+  margin-bottom: 40px;
+}
+
+.project_div2 {
+  background-color: rgba(255, 255, 255, 0.858);
+  border-radius: 7px;
+  padding: 24px;
 }
 
 .description_project {
@@ -10,6 +17,8 @@
 }
 
 
-.travel_img {
-  max-width: 50%;
+.project_img {
+  min-width: 50%;
+  width: 90%;
+  margin-left: 10px;
 }

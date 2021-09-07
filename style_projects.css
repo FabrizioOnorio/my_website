@@ -3,6 +3,8 @@
   border-radius: 7px;
   padding: 24px;
   margin-bottom: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr
 }
 
 .project_div2 {
@@ -21,4 +23,10 @@
   min-width: 50%;
   width: 90%;
   margin-left: 10px;
+}
+
+@media(max-width: 728px) {
+  .project_div {
+    grid-template-columns: 1fr;
+  }
 }

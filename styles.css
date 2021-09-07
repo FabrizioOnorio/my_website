@@ -1,9 +1,14 @@
 @import "style_icons.css";
+@import "style_projects.css";
 
 body {
   font-family: 'Major Mono Display', monospace;
   background: #FCEEF2;
   color: #004044;
+}
+
+.container {
+  padding: 40px;
 }
 
 h1 {
@@ -25,8 +30,12 @@ h2 {
   font-size: 2em;
 }
 
+h3 {
+  font-size: 1.5em;
+}
+
 p {
-  font-family: 'Besley', serif;
+  font-family: 'Source Code Pro', monospace;
   font-size: 1.5em;
 }
 
@@ -40,4 +49,29 @@ p {
   margin-top: 30px;
   display: flex;
   justify-content: space-evenly;
+}
+
+
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(152, 111, 123);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgba(255, 0, 0, 0.358);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: rgb(255, 183, 0);
+  background-color: transparent;
+  text-decoration: underline;
 }

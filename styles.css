@@ -1,5 +1,6 @@
 @import "style_icons.css";
 @import "style_projects.css";
+@import "style_navbar.css";
 
 body {
   font-family: 'Major Mono Display', monospace;
@@ -53,7 +54,7 @@ p {
 
 
 a:link {
-  color: green;
+  color: #008000;
   background-color: transparent;
   text-decoration: none;
 }

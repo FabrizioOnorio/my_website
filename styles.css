@@ -10,7 +10,9 @@ body {
 }
 
 .container {
-  padding: 15px;
+  margin-left: 120px;
+  margin-right: 120px;
+  padding: 16px;
 }
 
   h1 {
@@ -20,7 +22,6 @@ body {
 
 
 .title {
-  padding-top:30px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -50,8 +51,14 @@ p {
 }
 
 .profile_image {
+  min-width: 50%;
   width: 90%;
-  margin-top: 35px;
+  margin-right: 10px;
+}
+
+.div.image {
+  align-items: center;
+  padding: 16px;
 }
 
 .profile{
@@ -59,6 +66,9 @@ p {
   justify-content: space-evenly;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  padding-left: 35px;
+  padding-right: 35px;
+  margin-bottom: 16px;
 }
 
 .contacts {
@@ -91,8 +101,12 @@ a:active {
   text-decoration: underline;
 }
 
-@media(max-width: 728px) {
+@media(max-width: 768px) {
   .profile {
     grid-template-columns: 1fr;
   }
+  .container {
+    margin: 12px;
+  }
+
 }

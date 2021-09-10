@@ -14,6 +14,7 @@ li {
 
 a {
   text-decoration: none;
+  font-weight: bold;
 }
 
 .navbar {
@@ -62,7 +63,7 @@ a {
 }
 
 .nav-link:hover{
-  color: #008000;
+  color: #004044;
 }
 
 @media only screen and (max-width: 768px) {

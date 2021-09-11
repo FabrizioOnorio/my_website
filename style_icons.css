@@ -12,6 +12,7 @@ ul {
 .icon {
   font-size: 3.4em;
   margin-bottom: 18px;
+  text-decoration: none;
 }
 
 @media(max-width: 728px) {

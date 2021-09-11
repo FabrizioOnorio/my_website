@@ -1,7 +1,10 @@
 @import "style_icons.css";
 @import "style_projects.css";
 @import "style_navbar.css";
-@import "style_contact.css";
+
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   font-family: 'Major Mono Display', monospace;
@@ -15,10 +18,9 @@ body {
   padding: 16px;
 }
 
-  h1 {
+h1 {
   text-align: left;
   font-size: 1.4em;
-  margin-top: 0;
 }
 
 
@@ -51,10 +53,13 @@ p {
   font-size: 1.3em;
 }
 
+.empty {
+  height: 10px;
+}
+
 .profile_image {
   min-width: 50%;
   width: 80%;
-  /* margin-right: 10px; */
   margin-left: 10px;
   border-radius: 7px;
   justify-content: center;

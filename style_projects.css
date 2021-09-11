@@ -23,6 +23,7 @@
   min-width: 50%;
   width: 90%;
   margin-left: 10px;
+  border-radius: 7px;
 }
 
 @media(max-width: 568px) {

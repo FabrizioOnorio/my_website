@@ -54,6 +54,7 @@ p {
   min-width: 50%;
   width: 90%;
   margin-right: 10px;
+  border-radius: 7px;
 }
 
 .div.image {
@@ -78,7 +79,7 @@ p {
 
 
 a:link {
-  color: #004044;
+  color: rgb(152, 111, 123);
   background-color: transparent;
   text-decoration: none;
 }

@@ -17,7 +17,8 @@ body {
 
   h1 {
   text-align: left;
-  font-size: 1.5em;
+  font-size: 1.4em;
+  margin-top: 0;
 }
 
 
@@ -33,38 +34,41 @@ body {
 
 h2 {
   text-align: center;
-  margin-top: 16px;
-  margin-bottom: 16px;
-  font-size: 1.4em;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  font-size: 1.6em;
 }
 
 h3 {
-  font-size: 1.5em;
+  font-size: 1.3em;
   margin-bottom: 30px;
 }
 
 p {
-  font-family: 'Source Code Pro', monospace;
+  font-family: 'Kaisei HarunoUmi', serif;
   margin-top: 20px;
   margin-bottom: 20px;
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 
 .profile_image {
   min-width: 50%;
-  width: 90%;
-  margin-right: 10px;
+  width: 80%;
+  /* margin-right: 10px; */
+  margin-left: 10px;
   border-radius: 7px;
+  justify-content: center;
+
 }
 
 .div.image {
-  align-items: center;
+  justify-content: center;
   padding: 16px;
 }
 
 .profile{
   margin-top: 30px;
-  justify-content: space-evenly;
+  justify-content: center;
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding-left: 35px;
@@ -79,9 +83,9 @@ p {
 
 
 a:link {
-  color: rgb(152, 111, 123);
   background-color: transparent;
   text-decoration: none;
+  color: rgb(152, 111, 123);
 }
 
 a:visited {
@@ -91,15 +95,15 @@ a:visited {
 }
 
 a:hover {
-  color: rgba(255, 0, 0, 0.358);
+  color: #004044d7;
   background-color: transparent;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 
 a:active {
-  color: rgb(255, 183, 0);
+  color: rgba(255, 0, 0, 0.358);
   background-color: transparent;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 
 @media(max-width: 768px) {
